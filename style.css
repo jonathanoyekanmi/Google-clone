@@ -23,6 +23,11 @@ li a {
     padding: 10px 10px;
 }
 
+.fa-th:hover {
+    color: rgb(226, 13, 13);
+    
+}
+
 #name {
     border-radius: 50%;
     width: 40%;
@@ -83,7 +88,16 @@ input[type=submit] {
     color: #5F79B1;
     text-transform: capitalize;
     word-spacing: 0.9px;
+    opacity: 0.9;
 }
+
+input[type=submit]:focus,
+input[type=submit]:hover {
+  outline: none;
+  opacity: 1;
+  border: 0px;
+}
+
 
 p {
    display: flex;
